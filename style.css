@@ -1,0 +1,552 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.BBB{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* position: fixed; */
+    /* position: absolute; */
+    position: relative;
+}
+.BBB a{
+    color: yellow;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.list{
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    margin: 2rem;
+}
+
+nav h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+ ul li {
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+li a{
+color: black;
+}
+.list .ex{
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.ex a {
+    color: black;
+}
+
+.nd{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+button{
+    margin-right: 2rem;
+    font-size: 2rem;
+    padding:  1rem 1.5rem;
+    border: none;
+    background-color: yellow;
+}
+.nd button:nth-child(2){
+    background-color: rgb(243,245,247);
+    margin-right: 8rem;
+}
+
+.nd a{
+    margin: 2rem;
+    border-radius: 10%;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0px solid ;
+    color: #000;
+}
+.fit li a{
+    font-size: 2rem;
+    font-weight: 800;
+    background-color:rgb(255,222,2);
+}
+.snn li a{
+    font-size: 2rem;
+    font-weight: 700;
+    background-color:rgb(243,245,247);
+}
+
+.main-1{
+    margin-top: 5rem;
+    justify-content:center;
+    align-items:center;
+    display: grid;
+}
+
+.body h1{
+    margin-bottom: 2rem;
+    font-size: 7rem;
+}
+
+.h2 h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.pp p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ppp p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.rgff{
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.rgg{
+    margin-right: 1rem;
+    background-color: yellow;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 0PX solid;
+}
+.rgg a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.free-demo{
+    margin-right: 1rem;
+    background-color:rgb(216,217,221);
+    padding: 1rem 1rem 1rem 1rem;
+    border: 0PX solid;
+}
+.free-demo a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.main-2 hr{
+width: 80%;
+align-items: center;
+justify-content: space-between;
+display: flex;
+}
+.ion{
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 7rem;
+}
+
+.ion ion-icon{
+    font-size: 2rem;
+    color: blue;
+}
+
+.i{
+    max-width: 4cm;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.head{
+    width: 100%;
+    height: 2000px;
+    background-color:rgb(7,14,32);
+    padding-top: 9rem;
+}
+.header h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    /* margin-bottom: 2rem; */
+}
+.cointainer1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.withdraw{
+    margin-right: 2rem;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.box111{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.with-draw{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.with-draw h1{
+    padding: 0.5rem;
+    font-size:20px;
+    border: 1px solid rgb(108,133,149);
+    background-color: rgb(108,133,149);
+    border-radius: 2.7rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.box111 h2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.box111 p{
+    font-size: 1.4rem;
+   color: white;
+}
+.header p{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.table{
+    margin-top: 4rem;
+    margin-left: 10rem;
+    width: 80%;
+    border-collapse:collapse;
+}
+ .table th{
+    color: rgb(119,124,134);
+    text-align: left;
+ }
+
+ .table td{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    border-bottom: 1px solid white;
+ }
+ .table tr p{
+    color: rgb(119,124,134);
+ }
+ .table tr td a{
+    color: rgb(57,63,78);
+ }
+.btn-2{
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn-2 button:nth-child(2){
+    border: 0px solid;
+    border-radius: 2rem;
+    color: white;
+    background-color: rgb(23,33,51);
+}
+.btn-2 button:nth-child(1){
+    border: 1px solid;
+    border-radius: 2rem;
+    background-color: rgb(255,222,2);
+}
+.box1111{
+    /* width: 100%; */
+    /* height: 700px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem;
+}
+.immg{
+    height: 600px;
+    width: 50%;
+}
+.box-111{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* margin-left: 2rem; */
+}
+.box-111 ion-icon {
+    font-size: 6rem;
+}
+.box-111 h1{
+    font-size: 3rem;
+}
+.box-111 p{
+    padding: 1rem 0rem;
+    font-size: 1.6rem;
+}
+.box-111 a{
+    color:rgb(149,153,155);
+}
+.box-down{
+    /* width: 100%; */
+    /* margin: 4rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.security ion-icon{
+    font-size: 6rem;
+}
+.security h1{
+    font-size: 3rem;
+}
+.security p{
+    max-width: 19cm;
+    padding: 1rem 0rem;
+    font-size: 1.6rem;
+}
+.security a{
+    color:rgb(149,153,155)
+}
+.security p a:hover{
+ text-decoration: underline;
+}
+.Trade{
+   text-align: center;
+}
+.Trade h1{
+    font-size: 4rem;
+}
+.Trade p{
+    font-size: 2rem;
+}
+.table-1{
+   justify-content: center;
+   align-items: center;
+   display: flex; 
+
+}
+.table-2,.table-2 tr,.table-2 th,.table-2 td {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    border-right:1px solid black;
+    border-collapse:collapse; 
+}
+.table-2 th{ 
+    color: #000;
+    font-size: 2rem;
+    
+}
+.table-2 td h1{
+    color: black;
+    font-size: 1.6rem;
+    /* border-radius: ; */
+}                                                                                                                                                                                                                                                                                     
+.stay{
+    text-align: center;
+}
+.stay h1{
+    font-size: 2.9rem;
+}
+.stay p{
+    color: rgb(114,119,122);
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+}
+.stay p a{
+    color: rgb(114,119,122);
+}
+.stay p a:hover{
+    text-decoration: underline;
+}
+.tesla-box a{
+    color: rgb(226,228,228);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tsla-box{
+    width: 30%;
+    height: 550px;
+    border: 1px solid;
+    margin-right: 2rem;
+    border-radius: 2rem;
+}
+.img-tsla-box img{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size:cover;
+}
+.tsla-box h4{
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    display: inline;
+    background-color: rgb(108,133,149);
+}
+.tsla-box p{
+    margin: 2rem;
+    padding: 0.5rem;
+    color: #000;
+    font-size: 1.9rem;
+}
+.background-broker{
+    width: 100%;
+    height: 200px;
+    background-image: url(/bak.jpg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    /* margin-bottom: 5rem; */
+}
+.toaaa{
+    width: 100%;
+    height: 500px;
+}
+.toaa{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(7,14,32);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+    padding: 4rem;
+    margin: 2rem;
+}
+.today h1{
+    font-size: 2.9rem;
+    color:white;
+}
+.today p{
+    max-width: 20cm;
+    font-size: 1.5rem;
+    color: azure;
+}
+.btn-4 a{
+    padding: 1rem 2rem;
+    background-color: yellow;
+    color: black;
+    border: 0px solid;
+}
+.btn-4 a:nth-child(2){
+    color: white;
+    margin: 1rem;
+    background-color: rgb(23,33,51);
+}
+.nsssssss{
+    /* position: absolute; */
+    /* background-color: aquamarine; */
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    padding: 0rem 10rem;
+
+}
+.nssss h1{
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    color: red;
+}
+.x{
+    /* text-align: center; */
+    width: 100%;
+    height: 500px;
+}
+.table-4 th{
+    text-align: left;
+}
+.table-4 tr th{
+    padding-right: 3rem;
+}
+.table-4 tr td{
+    padding-right: 3rem;
+    /* padding-bottom: 1rem; */
+}
+.table-4 tr td p{
+    max-width: 5cm;
+    padding-bottom: 0.5rem;
+}
+.table-4 a{
+    color: rgb(198,200,201);
+}
+.svg{
+    padding-top: 5rem;
+    text-align: left;
+    padding-left: 2rem;
+}
+.svghr{
+    margin: 2rem;
+}
+.svg{
+    font-size: 1.2rem;
+    color: rgb(178, 180, 184);
+}
+
+.svgh2{
+    font-size:1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.svgh22{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem; 
+    margin-bottom: 3rem;
+}
+.svgh22 h2{
+    font-size: 1rem;
+}
