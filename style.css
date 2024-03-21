@@ -3,7 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
+body{
+    width: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -18,7 +20,7 @@ ul{
 
 .BBB{
     width: 100%;
-    margin-bottom: 2rem;
+    /* margin-bottom: 1rem; */
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: #000;
@@ -33,8 +35,12 @@ ul{
 .BBB a{
     color: yellow;
 }
-
-nav{
+.nav-1{
+    display: none;
+}
+.nav{
+    /* background-color: red; */
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -44,7 +50,6 @@ nav{
     justify-content:center;
     align-items:center;
     display: flex;
-    margin: 2rem;
 }
 
 nav h1{
@@ -86,7 +91,7 @@ button{
 }
 .nd button:nth-child(2){
     background-color: rgb(243,245,247);
-    margin-right: 8rem;
+    /* margin-right: 8rem; */
 }
 
 .nd a{
@@ -109,20 +114,17 @@ button{
 
 .main-1{
     margin-top: 5rem;
-    justify-content:center;
-    align-items:center;
+    place-content: center;
     display: grid;
 }
 
 .body h1{
+    width: 100%;
     margin-bottom: 2rem;
     font-size: 7rem;
 }
 
 .h2 h2{
-    align-items: center;
-    justify-content: center;
-    display: flex;
     font-size: 5rem;
     margin-bottom: 1rem;
 }
@@ -219,7 +221,7 @@ display: flex;
     display: flex;
 }
 .withdraw{
-    margin-right: 2rem;
+    margin-right: 1rem;
     width: 100%;
     height: 600px;
     justify-content: center;
@@ -236,10 +238,11 @@ display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
+    
 }
 .with-draw h1{
     padding: 0.5rem;
-    font-size:20px;
+    font-size:16px;
     border: 1px solid rgb(108,133,149);
     background-color: rgb(108,133,149);
     border-radius: 2.7rem;
@@ -264,7 +267,7 @@ display: flex;
 
 .table{
     margin-top: 4rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     width: 80%;
     border-collapse:collapse;
 }
@@ -306,24 +309,29 @@ display: flex;
 .box1111{
     /* width: 100%; */
     /* height: 700px; */
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: flex;
     margin: 2rem;
 }
 .immg{
+    /* height: 600; */
+    width: 450px;
+    overflow: hidden;
+}
+.immg>img{
     height: 600px;
-    width: 50%;
+    width: 100%;
 }
 .box-111{
     display:block;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
     /* margin-left: 2rem; */
 }
 .box-111 ion-icon {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 .box-111 h1{
     font-size: 3rem;
@@ -336,14 +344,17 @@ display: flex;
     color:rgb(149,153,155);
 }
 .box-down{
-    /* width: 100%; */
-    /* margin: 4rem; */
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 0rem 1rem;
+}
+.security{
+    width: 45%;
 }
 .security ion-icon{
-    font-size: 6rem;
+    font-size: 3rem;
 }
 .security h1{
     font-size: 3rem;
@@ -359,6 +370,14 @@ display: flex;
 .security p a:hover{
  text-decoration: underline;
 }
+.security-1{
+    width: 45%;
+    overflow: hidden;
+    height: 500px;
+}
+.security-1>img{
+    width: 450px;
+}
 .Trade{
    text-align: center;
 }
@@ -371,24 +390,21 @@ display: flex;
 .table-1{
    justify-content: center;
    align-items: center;
-   display: flex; 
-
+   display: flex;
 }
-.table-2,.table-2 tr,.table-2 th,.table-2 td {
-    padding-left: 4rem;
-    padding-right: 2rem;
+.trillon, .billion,.k,.trust{
+    padding-left: 2rem;
+    padding-right: 1rem;
     border-right:1px solid black;
-    border-collapse:collapse; 
+    /* border-collapse:collapse;  */
 }
-.table-2 th{ 
-    color: #000;
-    font-size: 2rem;
-    
+.table-2 { 
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
 }
-.table-2 td h1{
-    color: black;
-    font-size: 1.6rem;
-    /* border-radius: ; */
+.table-2 p{
+    font-size: 20px;
 }                                                                                                                                                                                                                                                                                     
 .stay{
     text-align: center;
@@ -455,7 +471,7 @@ display: flex;
     height: 500px;
 }
 .toaa{
-    width: 80%;
+    width: 90%;
     height: 200px;
     background-color: rgb(7,14,32);
     justify-content: space-between;
@@ -463,27 +479,31 @@ display: flex;
     display: flex;
     position: relative;
     top: 100px;
-    padding: 4rem;
-    margin: 2rem;
+    padding: 2rem;   
+    /* margin: 2rem; */
 }
 .today h1{
-    font-size: 2.9rem;
+    font-size: 30px;
     color:white;
 }
+.today{
+    width: 70%;
+}
 .today p{
-    max-width: 20cm;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 1.5rem;
     color: azure;
 }
 .btn-4 a{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background-color: yellow;
     color: black;
     border: 0px solid;
 }
 .btn-4 a:nth-child(2){
     color: white;
-    margin: 1rem;
+    /* margin: 1rem; */
     background-color: rgb(23,33,51);
 }
 .nsssssss{
@@ -492,7 +512,7 @@ display: flex;
     height: 700px;
     width: 100%;
     justify-content: center;
-    padding: 0rem 10rem;
+    padding-left: 3rem;
 
 }
 .nssss h1{
@@ -505,22 +525,15 @@ display: flex;
     width: 100%;
     height: 500px;
 }
-.table-4 th{
-    text-align: left;
+.table-4{
+    width: 100%;
+    grid-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 }
-.table-4 tr th{
-    padding-right: 3rem;
-}
-.table-4 tr td{
-    padding-right: 3rem;
-    /* padding-bottom: 1rem; */
-}
-.table-4 tr td p{
+.table-4 p a{
     max-width: 5cm;
-    padding-bottom: 0.5rem;
-}
-.table-4 a{
-    color: rgb(198,200,201);
+    color: rgb(137, 141, 143);
 }
 .svg{
     padding-top: 5rem;
@@ -532,6 +545,7 @@ display: flex;
 }
 .svg{
     font-size: 1.2rem;
+    flex-wrap: wrap;
     color: rgb(178, 180, 184);
 }
 
@@ -549,4 +563,186 @@ display: flex;
 }
 .svgh22 h2{
     font-size: 1rem;
+}
+@media (max-width:1200px) {
+    button{
+        margin-right: 1rem;
+        font-size: 1rem;
+        padding:  .7rem 1rem;
+    }
+    ul li {
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+    .list .ex{
+        font-size: 3rem;
+    }
+    .body h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+    .h2 h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .img-txt>img{
+        width: 400px;
+    }
+    .Trade h1{
+        font-size: 3rem;
+    }
+    .Trade p{
+        font-size: 2rem;
+    }
+    .table-2 th{ 
+        font-size:20px;
+    }
+    .table-2 td h1{
+        font-size: 1rem;
+    }   
+}
+@media (max-width:940px) {
+    .box111 h2{
+        font-size: 20px; 
+    }
+    .box111 p{
+        font-size: 15px;
+    }
+    .img-txt>img{
+        width: 300px;
+    }
+    .immg>img{
+        width: 300px;
+        height: 450px;
+    }
+    .security-1>img{
+        width:300px;
+        height: 400px;
+    }
+    .nav{
+        display: none;
+    }
+    .nav-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        background: red;
+    }
+    .ham-menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        /* background-color: blueviolet; */
+        width: 300px;
+        height:60px;
+        z-index: 0;
+        display: none;
+    }
+    
+    .toggler {
+        width: 50px;
+        height: 50px;
+        /* border-radius: 50%; */
+        position: absolute;
+        top: 10px;
+        right: 1rem;
+        z-index: 3;
+        opacity: 0;
+    }
+    
+    .menu-1 {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        right: 1rem;
+    }
+    
+    .menu-1>div {
+        background-color: rgb(255, 255, 255);
+        width: 70%;
+        height: 2px;
+        position: relative;
+    }
+    
+    .menu-1>div::after {
+        /* background-color: red; */
+        width: 100%;
+        top: -8px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        content: '';
+        position: absolute;
+    }
+    
+    .menu-1>div::before {
+        /* background-color: red; */
+        width: 100%;
+        top: 8px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        content: '';
+        position: absolute;
+    }
+    
+    .toggler:checked+.menu-1>div {
+        transform: rotate(360deg);
+        transition: all 1s;
+    }
+    .toggler:checked+.menu-1>div::after,
+    .toggler:checked+.menu-1>div::before {
+        /* transform: rotate(90deg);
+        top: 0; */
+        width: 50%;
+    }
+    
+    .toggler:checked+.menu-1+.list {
+        translate: 50%;
+    }
+    
+    .list {
+        position: relative;
+        margin-right: 1rem;
+        width: 200px;
+        top: 70px;
+        background-color: #d60f83;
+        /* max-width: 80rem; */
+        height: 300px;
+        /* margin-top: 140%; */
+        color: white;
+        font-size: 20px;
+        translate: 150%;
+        transition: translate 1s;
+    }
+    
+    .list li {
+        list-style-type: none;
+        padding-top: 2rem;
+        border-bottom: 2px solid white;
+    }
+    
+    .list ul li::after {
+        content: "";
+        /* width: 0; */
+        height: 500px;
+        position: absolute;
+        bottom: -5px;
+        background-color: aqua;
+        left: 50%;
+        transform: translateX(-10%);
+        background: #fff;
+        transition: 0.3s;
+    }
+}
+@media (max-width:400px) {
+    .BBB{
+        display: none;
+    }
 }
