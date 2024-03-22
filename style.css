@@ -137,11 +137,10 @@ button {
 }
 
 .pp p{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 2rem;
+    text-align: center;
+    font-size: 25px;
     margin-bottom: 1rem;
+    max-width: 17cm;
 }
 
 .ppp p{
@@ -187,9 +186,10 @@ justify-content: space-between;
 display: flex;
 }
 .ion{
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     display: flex;
     gap: 7rem;
 }
@@ -208,7 +208,8 @@ display: flex;
 
 .head{
     width: 100%;
-    height: 2000px;
+    padding: 1rem;
+    /* height: 2000px; */
     background-color:rgb(7,14,32);
     padding-top: 9rem;
 }
@@ -223,9 +224,11 @@ display: flex;
     /* margin-bottom: 2rem; */
 }
 .cointainer1{
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    /* justify-content: center;
     align-items: center;
-    display: flex;
+    display: flex; */
 }
 .withdraw{
     margin-right: 1rem;
@@ -282,10 +285,18 @@ display: flex;
     color: rgb(119,124,134);
     text-align: left;
  }
-
+ .flex{
+    align-items: center;
+    /* justify-content: space-aro; */
+    display: flex;
+ }
+ .flex>img{
+    width: 30px;
+    height: 30px;
+ }
  .table td{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     color: white;
     border-bottom: 1px solid white;
  }
@@ -316,38 +327,39 @@ display: flex;
 .box1111{
     /* width: 100%; */
     /* height: 700px; */
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    display: grid;
     margin: 2rem;
 }
 .immg{
-    /* height: 600; */
+    height: 300px;
     width: 450px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .immg>img{
-    height: 600px;
-    width: 100%;
+    height: 300px;
+    width: 300px;
 }
 .box-111{
-    display:block;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     width: 45%;
     /* margin-left: 2rem; */
 }
 .box-111 ion-icon {
+    position: relative;
     font-size: 3rem;
+    z-index: 0;
 }
 .box-111 h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .box-111 p{
     padding: 1rem 0rem;
-    font-size: 1.6rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
-.box-111 a{
+.box-111 a{ 
     color:rgb(149,153,155);
 }
 .box-down{
@@ -358,13 +370,14 @@ display: flex;
     padding: 0rem 1rem;
 }
 .security{
+    
     width: 45%;
 }
 .security ion-icon{
     font-size: 3rem;
 }
 .security h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .security p{
     max-width: 19cm;
@@ -378,26 +391,28 @@ display: flex;
  text-decoration: underline;
 }
 .security-1{
-    width: 45%;
+    /* width: 45%; */
     overflow: hidden;
-    height: 500px;
+    height: 350px;
 }
 .security-1>img{
-    width: 450px;
+    width: 300px;
+    height: 300px;
 }
 .Trade{
    text-align: center;
 }
 .Trade h1{
-    font-size: 30rem;
+    font-size: 40px;
 }
 .Trade p{
-    font-size: 2rem;
+    font-size: 25px;
 }
 .table-1{
    justify-content: center;
    align-items: center;
    display: flex;
+   padding-top:2rem ;
 }
 .trillon, .billion,.k,.trust{
     padding-left: 2rem;
@@ -414,48 +429,45 @@ display: flex;
     font-size: 20px;
 }                                                                                                                                                                                                                                                                                     
 .stay{
-    text-align: center;
-}
-.stay h1{
-    font-size: 2.9rem;
-}
-.stay p{
-    color: rgb(114,119,122);
-    font-size: 1.7rem;
-    padding-bottom: 2rem;
-}
-.stay p a{
-    color: rgb(114,119,122);
-}
-.stay p a:hover{
-    text-decoration: underline;
-}
-.tesla-box a{
-    color: rgb(226,228,228);
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-top: 2rem;
 }
-.tsla-box{
-    width: 30%;
-    height: 550px;
-    border: 1px solid;
-    margin-right: 2rem;
-    border-radius: 2rem;
+.stay-1 h1{
+    text-align: center;
+    font-size: 40px;
 }
-.img-tsla-box img{
+.stay-1 p{
+    text-align: center;
+    color: rgb(114,119,122);
+    font-size: 25px;
+}
+.tesla-box {
     width: 100%;
-    margin-bottom: 2rem;
-    background-position: center;
-    background-size:cover;
+    padding: 0rem 2rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:  repeat(auto-fit, minmax(200px,1fr));
 }
-.tsla-box h4{
-    margin: 2rem;
-    padding: 0.5rem 1rem;
+.tsla-box a{
+    display: grid;
+    height: 450px;
+    overflow: hidden;
+    
+    border: 1px solid;
+    border-radius: 1rem;
+}
+.tsla-box img{
+    width: 100%;
+}
+.tsla-box a h4{
+    margin-left: 2rem;
+    text-align: left;
+    color: rgb(108,133,149);
     border-radius: 2rem;
-    display: inline;
-    background-color: rgb(108,133,149);
+    display: inline-block;
 }
 .tsla-box p{
     margin: 2rem;
@@ -471,7 +483,6 @@ display: flex;
     align-items: center;
     display: flex;
     position: absolute;
-    /* margin-bottom: 5rem; */
 }
 .toaaa{
     width: 100%;
@@ -484,33 +495,36 @@ display: flex;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    /* flex-wrap: wrap; */
     position: relative;
     top: 100px;
-    padding: 2rem;   
-    /* margin: 2rem; */
+    padding: 2rem;
 }
 .today h1{
     font-size: 30px;
     color:white;
 }
-.today{
-    width: 70%;
-}
+
 .today p{
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5rem;
     color: azure;
 }
+.btn-4{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 .btn-4 a{
-    padding: 1rem 1rem;
+    padding: 1rem;
     background-color: yellow;
     color: black;
     border: 0px solid;
 }
 .btn-4 a:nth-child(2){
     color: white;
-    /* margin: 1rem; */
+    /* padding: 10px    2rem; */
     background-color: rgb(23,33,51);
 }
 .nsssssss{
@@ -726,7 +740,7 @@ display: flex;
     }
     .immg>img{
         width: 300px;
-        height: 450px;
+        height: 300px;
     }
     .security-1>img{
         width:300px;
@@ -777,6 +791,50 @@ display: flex;
     .ham-menu{
  display: block;
 }
+.header>h1{
+    font-size: 2rem; 
+}
+.security-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Trade>h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+.Trade>p{
+    font-size: 20px;
+}
+.stay-1>h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+.stay-1>p{
+    max-width: 13cm;
+    font-size: 20px;
+}
+}
+@media (max-width:741px) {
+    .table tr th:nth-child(2){
+        display: none;
+    }
+    .table tr td:nth-child(2){
+        display: none;
+        /* background-color: red; */
+    }
+    .table tr th:nth-child(4){
+        display: none;
+    }
+    .table tr td:nth-child(4){
+        display: none;
+    }
+    .toaa{
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(1fr));
+    }
+    .btn-4 a{
+        padding: 1rem 2rem;
+    }
 }
 @media (max-width:400px) {
     .BBB{
