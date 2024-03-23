@@ -852,7 +852,6 @@ button {
         width: 300px;
         height: 400px;
     }
-
     .nav {
         display: none;
     }
@@ -875,7 +874,6 @@ button {
         background-color: rgb(134, 56, 56);
         padding: 0rem 2rem;
     }
-
     .main-1 {
         margin-top: 10rem;
         place-content: center;
@@ -886,6 +884,7 @@ button {
         position: fixed;
         width: 100%;
         top: 50px;
+        z-index: 999;
         display: block;
         /* background: blue; */
     }
