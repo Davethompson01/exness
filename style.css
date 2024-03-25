@@ -360,13 +360,15 @@ button {
 
 .box1111 {
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    /* height: 700px; */
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+    display: grid;
     /* flex-wrap: wrap; */
     padding: 2rem;
+
+
+
 }
 
 .immg {
@@ -374,8 +376,8 @@ button {
 }
 
 .immg>img {
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
 }
 
 .box-111 {
@@ -386,12 +388,12 @@ button {
 }
 
 .box-111 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .box-111 p {
-    /* padding: 1rem 0rem; */
-    font-size: 25px;
+    max-width: 13cm;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -400,38 +402,6 @@ button {
     color: rgb(149, 153, 155);
 }
 
-.box-down {
-    display: flex;
-    width: 100%;
-    /* padding: 1rem 2rem; */
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 4rem;
-}
-
-.security h1 {
-    font-size: 3rem;
-}
-
-.security p {
-    /* max-width: 19cm; */
-    padding: 1rem 0rem;
-    font-size: 1rem;
-}
-
-.security a {
-    color: rgb(149, 153, 155)
-}
-
-.security p a:hover {
-    text-decoration: underline;
-}
-
-
-.security-1>img {
-    width: 500px;
-    height: 350px;
-}
 
 .Trade {
     padding: 3rem 0rem;
@@ -829,7 +799,9 @@ button {
         font-size: 1rem;
     }
 }
-
+@media (max-width:100px) {
+    
+}
 @media (max-width:940px) {
     .box111 h2 {
         font-size: 20px;
